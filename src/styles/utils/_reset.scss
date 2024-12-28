@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    text-wrap: balance;
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i}, p {
+    overflow-wrap: break-word;
+  }
+}
+
+p,
+li,
+figcaption {
+  text-wrap: pretty;
+  max-width: 65ch;
+}
+
+img, 
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+#root {
+  isolation: isolate;
+}

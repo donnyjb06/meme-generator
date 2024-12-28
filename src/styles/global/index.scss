@@ -1,0 +1,13 @@
+@use "../utils/reset";
+
+body {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
