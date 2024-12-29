@@ -1,0 +1,22 @@
+@use "../../styles/utils/variables";
+
+.header {
+	width: 100%;
+	padding: 20px 29px;
+	background: variables.$gradient;
+	display: flex;
+	align-items: center;
+	gap: 6.69px;
+
+	.header__logo {
+		width: 31.66px;
+		height: 26.22px;
+	}
+
+	.header__title {
+		color: #fff;
+		letter-spacing: -2.075px;
+		line-height: 1.15;
+		font-size: 1.3rem;
+	}
+}
