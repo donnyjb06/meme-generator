@@ -1,0 +1,22 @@
+.form {
+	display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 15px;
+
+  .form__group {
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    transition: 0.25s ease-in-out;
+  }
+
+
+  @media screen and (max-width: 693px) {
+    .form__group {
+      gap: 15px;
+    }
+  }
+}
+
+

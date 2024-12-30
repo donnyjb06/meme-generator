@@ -1,21 +1,22 @@
 @use "../utils/reset";
 
-body {
+body,
+html {
 	width: 100vw;
 	height: auto;
-	display: flex;
-	justify-content: center;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	font-smooth: always;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	font-family: "Karla", sans-serif;
+	overflow-x: hidden;
 }
 
 #root {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
-	width: 100%;
+	min-width: 100%;
 }

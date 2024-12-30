@@ -1,0 +1,22 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  gap: 4px;
+  line-height: 1.17;
+  font-weight: 500;
+  flex: 1;
+
+  .inputGroup__input {
+    padding: 7px 10px;
+    font-weight: 400;
+    border-radius: 4.5px;
+    border: 1px #D1D5DB solid;
+    transition: 0.5s ease;
+  }
+
+  .inputGroup__input:focus {
+    outline: none;
+    box-shadow: 0 0 2px rgba($color: #000000, $alpha: 0.2);
+  }
+}

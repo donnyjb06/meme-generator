@@ -1,7 +1,7 @@
 @use "../../styles/utils/variables";
 
 .header {
-	width: 100%;
+	min-width: 100%;
 	padding: 20px 29px;
 	background: variables.$gradient;
 	display: flex;
@@ -17,6 +17,6 @@
 		color: #fff;
 		letter-spacing: -2.075px;
 		line-height: 1.15;
-		font-size: 1.3rem;
+		font-size: clamp(1rem, 2vw, 1.3rem);
 	}
 }
