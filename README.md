@@ -2,6 +2,8 @@
 
 A fun and interactive **Meme Generator** built with **React**, **TypeScript**, and **SCSS**. This project allows users to generate memes with custom text on them. You can choose a random meme, type your own text for the top and bottom captions, and watch the meme update live as you type! 🤣
 
+![Meme Generator Preview](preview.png "Preview of Meme Generator" style="max-width: 100%; display: block; margin: 0 auto; height: auto;")
+
 ## Features 🚀
 
 - **Random Meme Generator**: Click a button to get a random meme image from an array of memes.
