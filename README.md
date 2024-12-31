@@ -1,13 +1,10 @@
-Great! Based on your description, I'll generate a detailed and clear README for your Meme Generator project. Here’s a comprehensive and engaging README in Markdown format:
-
-````markdown
 # Meme Generator 🎉
 
 A fun and interactive **Meme Generator** built with **React**, **TypeScript**, and **SCSS**. This project allows users to generate memes with custom text on them. You can choose a random meme, type your own text for the top and bottom captions, and watch the meme update live as you type! 🤣
 
 ## Features 🚀
 
-- **Random Meme Generator**: Click a button to get a random meme from an array of memes.
+- **Random Meme Generator**: Click a button to get a random meme image from an array of memes.
 - **Live Text Update**: Type into the top and bottom text inputs to dynamically change the text on the meme.
 - **Simple and Fun**: No setup required, just open and enjoy!
 
@@ -16,7 +13,7 @@ A fun and interactive **Meme Generator** built with **React**, **TypeScript**, a
 1. When the page is rendered, the app fetches an array of meme objects from an API.
 2. Each meme has an image, a name, and text input placeholders (top and bottom text).
 3. The user can type into the top and bottom text inputs, and the meme image will dynamically update with the new text as you type.
-4. Click on the **"Get a new meme image"** button to fetch a random meme from the array and display it.
+4. Click on the **"Get a new meme image"** button to fetch a random meme image from the array and display it.
 
 ### Example Meme Object
 
@@ -45,7 +42,6 @@ A fun and interactive **Meme Generator** built with **React**, **TypeScript**, a
 	}
 }
 ```
-````
 
 ## Installation 🔧
 
