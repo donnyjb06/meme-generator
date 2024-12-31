@@ -2,8 +2,6 @@
 
 A fun and interactive **Meme Generator** built with **React**, **TypeScript**, and **SCSS**. This project allows users to generate memes with custom text on them. You can choose a random meme, type your own text for the top and bottom captions, and watch the meme update live as you type! 🤣
 
-<img src="preview-image.png" alt="Preview of Meme Generator" style="max-width: 100%; display: block; margin: 0 auto; height: auto;" />
-
 ## Features 🚀
 
 - **Random Meme Generator**: Click a button to get a random meme image from an array of memes.
@@ -98,25 +96,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Screenshot 📸
 
-![Meme Generator Screenshot](https://via.placeholder.com/800x400.png?text=Meme+Generator+Example)
+<img src="preview-image.png" alt="Preview of Meme Generator" style="max-width: 100%; display: block; margin: 0 auto; height: auto;" />
 
 ---
 
 Have fun generating memes! 😆
-
-```
-
-### Key Sections Explained:
-
-- **Features 🚀**: Highlights the main functionality of your app, such as the live text update and random meme generator.
-- **How It Works 🛠️**: Provides a clear explanation of how the app fetches meme data and updates the image.
-- **Installation 🔧**: A simple step-by-step guide to get the app running locally. Since your app has no complex setup, it keeps things easy.
-- **Technologies Used ⚙️**: Lists the main tools and libraries used in the project: React, TypeScript, and SCSS.
-- **Contributing 🤝**: Encourages collaboration and contributions, useful if others want to help improve the project.
-- **License 📄**: Includes the MIT License, but you can change this depending on your preference.
-- **Screenshot 📸**: Placeholder image to show what the app might look like (you can replace it with a real screenshot later).
-
----
-
-Feel free to modify or extend any part of this README as your project evolves. Let me know if you need any more adjustments!
-```
