@@ -5,9 +5,10 @@ import { FC, FormEvent } from "react";
 
 interface FormProps {
 	generateMeme: (event: FormEvent<HTMLFormElement>) => void;
+	changeText: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const Form: FC<FormProps> = ({ generateMeme }) => {
+const Form: FC<FormProps> = ({ generateMeme, changeText }) => {
 	return (
 		<>
 			<form action="#" className={styles.form} onSubmit={generateMeme}>
@@ -17,6 +18,7 @@ const Form: FC<FormProps> = ({ generateMeme }) => {
 						inputName="topText"
 						inputId="topText"
 						inputPlaceholder="Shut up"
+						changeText={changeText}
 					/>
 
 					<TextInputGroup
@@ -24,6 +26,7 @@ const Form: FC<FormProps> = ({ generateMeme }) => {
 						inputName="bottomText"
 						inputId="bottomText"
 						inputPlaceholder="And take my money"
+						changeText={changeText}
 					/>
 				</div>
 

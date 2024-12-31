@@ -6,9 +6,10 @@ interface InputGroupProps {
   inputName: string,
   inputId: string,
   inputPlaceholder: string,
+	changeText: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const TextInputGroup: FC<InputGroupProps> = ({labelText, inputName, inputId, inputPlaceholder}) => {
+const TextInputGroup: FC<InputGroupProps> = ({labelText, inputName, inputId, inputPlaceholder, changeText}) => {
   return(
     <label className={styles.inputGroup}>
 		{labelText}
@@ -16,10 +17,9 @@ const TextInputGroup: FC<InputGroupProps> = ({labelText, inputName, inputId, inp
 			type="text"
 			name={inputName}
 			id={inputId}
-			required
-			aria-required
 			placeholder={inputPlaceholder}
       className={styles.inputGroup__input}
+			onChange={changeText}
 		/>
 	</label>
   )
