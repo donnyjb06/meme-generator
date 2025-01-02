@@ -1,6 +1,6 @@
 import styles from "@components/Meme/meme.module.scss";
-import { FC } from "react"
-import MemeObj from "@interfaces/MemeObj";
+import { FC } from "react";
+import MemeObj from "@helper/interfaces/MemeObj";
 
 const Meme: FC<MemeObj> = ({ imgSrc, topText, bottomText }) => {
 	return (
@@ -16,4 +16,4 @@ const Meme: FC<MemeObj> = ({ imgSrc, topText, bottomText }) => {
 	);
 };
 
-export default Meme
+export default Meme;
