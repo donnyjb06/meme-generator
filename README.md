@@ -98,6 +98,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 <img src="preview-image.png" alt="Preview of Meme Generator" style="max-width: 100%; display: block; margin: 0 auto; height: auto;" />
 
+[Click here to use Meme Generator](https://donnyjb06.github.io/meme-generator/)
+
+
 ---
 
 Have fun generating memes! 😆
